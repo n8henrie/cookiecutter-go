@@ -23,8 +23,8 @@ func TestPackage(t *testing.T) {
 
 	for _, point := range tests {
 		// n := testMyFunction(point.num)
-		// if n != pair.dsum {
-		// 	t.Error("For", pair.num, "expected", pair.dsum, "got", n)
+		// if n != point.dsum {
+		// 	t.Error("For", point.num, "expected", point.dsum, "got", n)
 		// }
 	}
 }
