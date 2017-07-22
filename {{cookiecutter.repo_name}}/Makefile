@@ -8,6 +8,9 @@ help:
 rpi:
 	GOOS=linux GOARCH=arm GOARM=7 go build -v .
 
+macos:
+	GOOS=darwin GOARCH=amd64 go build -v .
+
 clean:
 	-rm {{ cookiecutter.repo_name }}
 
