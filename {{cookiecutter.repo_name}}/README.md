@@ -41,7 +41,4 @@
 ## Troubleshooting / FAQ
 
 - How can I install an older / specific version of {{ cookiecutter.project_name }}?
-    - Install from a tag:
-        - pip install git+git://github.com/n8henrie/{{ cookiecutter.repo_name }}.git@v0.1.0
-    - Install from a specific commit:
-        - pip install git+git://github.com/n8henrie/{{ cookiecutter.repo_name }}.git@aabc123def456ghi789
+    - TODO
