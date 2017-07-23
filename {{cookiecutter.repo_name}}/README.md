@@ -17,7 +17,7 @@
 
 ## Dependencies
 
-- Go >= 1.7
+- Go >= 1.8
 
 ## Quickstart
 
