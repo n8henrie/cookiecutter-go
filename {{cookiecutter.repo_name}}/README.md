@@ -21,7 +21,7 @@
 
 ## Quickstart
 
-1. `go get https://github.com/n8henrie/{{ cookiecutter.repo_name }}`
+1. `go get -u https://github.com/n8henrie/{{ cookiecutter.repo_name }}`
 
 - TODO
 
