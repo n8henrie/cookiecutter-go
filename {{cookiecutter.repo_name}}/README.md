@@ -21,7 +21,8 @@
 
 ## Quickstart
 
-1. `go get http://github.com/n8henrie/{{ cookiecutter.repo_name }}`
+1. `go get https://github.com/n8henrie/{{ cookiecutter.repo_name }}`
+
 - TODO
 
 ### Development Setup
