@@ -6,6 +6,12 @@ LDFLAGS := -ldflags "-X main.version=$(git describe --tags)"
 help:
 	@$(GREP) --only-matching --word-regexp '^[^[:space:].]*:' Makefile | sed 's|:[:space:]*||'
 
+test:
+	go test -v .
+
+bench:
+	go test -bench=.
+
 rpi:
 	GOOS=linux GOARCH=arm GOARM=7 go build $(LDFLAGS) -v .
 
