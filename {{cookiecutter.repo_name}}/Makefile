@@ -1,7 +1,9 @@
 SHELL := /bin/bash
 PWD = $(shell pwd)
 GREP := $(shell command -v ggrep || command -v grep)
-LDFLAGS := -ldflags "-X main.version=$(git describe --tags)"
+GIT := $(shell command -v /usr/local/bin/git || command -v git)
+
+LDFLAGS := -ldflags "-X main.version=$$($(GIT) describe --tags)"
 
 help:
 	@$(GREP) --only-matching --word-regexp '^[^[:space:].]*:' Makefile | sed 's|:[:space:]*||'
