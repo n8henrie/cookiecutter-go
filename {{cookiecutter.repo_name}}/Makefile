@@ -26,6 +26,9 @@ oldrpi:
 macos:
 	GOOS=darwin GOARCH=amd64 go build $(LDFLAGS) -v .
 
+linux:
+	GOOS=linux GOARCH=amd64 go build $(LDFLAGS) -v .
+
 clean:
 	-rm {{ cookiecutter.repo_name }}
 
