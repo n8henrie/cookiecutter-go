@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }}.svg?branch=master)](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }})
+[![master build status](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }}.svg?branch=master)](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }})
+<<!-- [![dev build status](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }}.svg?branch=dev)](https://travis-ci.org/n8henrie/{{ cookiecutter.repo_name }}) -->
 
 # {{ cookiecutter.project_name }}
 
