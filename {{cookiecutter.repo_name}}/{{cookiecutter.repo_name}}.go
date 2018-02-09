@@ -1,3 +1,4 @@
+// {{ cookiecutter.project_short_description }}
 package main
 
 import (
@@ -8,6 +9,7 @@ import (
 
 var version = "undefined"
 
+// Print version number defined at compile time and exit
 func printVersion() {
 	fmt.Println("{{ cookiecutter.repo_name }} version:", version)
 	os.Exit(0)
